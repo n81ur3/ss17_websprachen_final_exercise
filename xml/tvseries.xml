@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tvseries SYSTEM "tvseries.dtd">
+<?xml-stylesheet type="text/xsl" href="tvseries.xsl" ?>
+
+<tvseries genre="fantasy" release="2011" origin="US">
+    <title>Game of Thrones</title>
+    <network>HBO</network>
+    <characters>
+        <character id="01" status="deceased">
+        	<personinfo>
+        		<firstname>Eddard</firstname>
+            	<surname>Stark</surname>
+        	</personinfo> 
+            <image src="../images/eddard_stark.jpg" width="400" height="600" />
+            <seasons>1 4 6 7</seasons>
+            <actor birthday="1959-04-17">
+	            <personinfo>
+	        		<firstname>Sean</firstname>
+	            	<surname>Bean</surname>
+        		</personinfo> 
+                <birthplace>
+                    <city>Sheffield</city>
+                    <country>England</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Stark</allegiance>
+        </character>
+        <character id="02" status="deceased">
+        	<personinfo>
+	        		<firstname>Catelyn</firstname>
+	            	<surname>Stark</surname>
+        	</personinfo> 
+            <image src="../images/catelyn_stark.jpg" width="400" height="600" />
+            <seasons>1 2 3</seasons>
+            <actor birthday="1964-01-17">
+            	<personinfo>
+	        		<firstname>Michelle</firstname>
+	            	<surname>Fairley</surname>
+        		</personinfo> 
+                <birthplace>
+                    <city>Coleraine</city>
+                    <country>Northern Ireland</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Stark</allegiance>
+        </character>
+        <character id="03" status="deceased">
+        	<personinfo>
+	        	<firstname>Robb</firstname>
+	            <surname>Stark</surname>
+        	</personinfo> 
+            <image src="../images/robb_stark.jpg" width="400" height="600" />
+            <seasons>1 2 3</seasons>
+            <actor birthday="1986-06-18">
+            	<personinfo>
+	        		<firstname>Richard</firstname>
+	            	<surname>Madden</surname>
+        		</personinfo> 
+                <birthplace>
+                    <city>Eldersile</city>
+                    <country>Scotland</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Stark</allegiance>
+        </character>
+        <character id="04" status="alive">
+            <personinfo>
+	        	<firstname>Sansa</firstname>
+	            <surname>Stark</surname>
+        	</personinfo> 
+            <image src="../images/sansa_stark.jpg" width="400" height="600" />
+            <seasons>1 2 3 4 5 6 7</seasons>
+            <actor birthday="1996-02-21">
+            	<personinfo>
+	        		<firstname>Sophie</firstname>
+	            	<surname>Turner</surname>
+        		</personinfo> 
+                <birthplace>
+                    <city>Northampton</city>
+                    <country>England</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Stark</allegiance>
+        </character>
+        <character id="05" status="alive">
+            <personinfo>
+	        	<firstname>Arya</firstname>
+	            <surname>Stark</surname>
+        	</personinfo>
+            <image src="../images/arya_stark.jpg" width="400" height="600" />
+            <seasons>1 2 3 4 5 6 7</seasons>
+            <actor birthday="1997-04-15">
+           		<personinfo>
+	        		<firstname>Maisie</firstname>
+	            	<surname>Williams</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>Bristol</city>
+                    <country>England</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Stark</allegiance>
+        </character>
+        <character id="06" status="alive">
+            <personinfo>
+	        	<firstname>Bran</firstname>
+	            <surname>Stark</surname>
+        	</personinfo>
+            <image src="../images/bran_stark.jpg" width="400" height="600" />
+            <seasons>1 2 3 4 6 7</seasons>
+            <actor birthday="1999-04-09">
+                <personinfo>
+	        		<firstname>Isaac</firstname>
+	            	<surname>Hempstead-Wright</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>Kent</city>
+                    <country>England</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Stark</allegiance>
+        </character>
+        <character id="07" status="alive">
+        	<personinfo>
+	        		<firstname>Jon</firstname>
+	            	<surname>Snow</surname>
+        		</personinfo>
+            <image src="../images/jon_snow.jpg" width="400" height="600" />
+            <seasons>1 2 3 4 5 6 7</seasons>
+            <actor birthday="1986-12-26">
+                <personinfo>
+	        		<firstname>Kit</firstname>
+	            	<surname>Harington</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>London</city>
+                    <country>England</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Stark</allegiance>
+        </character>
+        <character id="08" status="deceased">
+            <personinfo>
+	        		<firstname>Robert</firstname>
+	            	<surname>Baratheon</surname>
+        	</personinfo>
+            <image src="../images/robert_baratheon.jpg" width="400" height="600" />
+            <seasons>1</seasons>
+            <actor birthday="1964-01-14">
+            	<personinfo>
+	        		<firstname>Mark</firstname>
+	            	<surname>Addy</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>York</city>
+                    <country>England</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Baratheon</allegiance>
+        </character>
+        <character id="09" status="alive">
+        	<personinfo>
+	        		<firstname>Cersei</firstname>
+	            	<surname>Lannister</surname>
+        	</personinfo>
+            <image src="../images/cersei_lannister.jpg" width="400" height="600" />
+            <seasons>1 2 3 4 5 6 7</seasons>
+            <actor birthday="1973-10-03">
+                <personinfo>
+	        		<firstname>Lena</firstname>
+	            	<surname>Headey</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>Hamilton</city>
+                    <country>Bermuda</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Lannister</allegiance>
+        </character>
+        <character id="10" status="alive">
+            <personinfo>
+	        		<firstname>Jaime</firstname>
+	            	<surname>Lannister</surname>
+        	</personinfo>
+            <image src="../images/jaime_lannister.jpg" width="400" height="600" />
+            <seasons>1 2 3 4 5 6 7</seasons>
+            <actor birthday="1970-07-27">
+            	<personinfo>
+	        		<firstname>Nikolaj</firstname>
+	            	<surname>Coster-Waldau</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>Rudkobing</city>
+                    <country>Denmark</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Lannister</allegiance>
+        </character>
+        <character id="11" status="alive">
+        	<personinfo>
+	        	<firstname>Tyrion</firstname>
+	            <surname>Lannister</surname>
+        	</personinfo>
+            <image src="../images/tyrion_lannister.jpg" width="400" height="600" />
+            <seasons>1 2 3 4 5 6 7</seasons>
+            <actor birthday="1969-06-11">
+            	<personinfo>
+	        		<firstname>Peter</firstname>
+	            	<surname>Dinklage</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>Morristown</city>
+                    <country>USA</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Lannister</allegiance>
+        </character>
+        <character id="12" status="deceased">
+       		<personinfo>
+	        	<firstname>Joffrey</firstname>
+	            <surname>Baratheon</surname>
+        	</personinfo>
+            <image src="../images/joffrey_baratheon.jpg" width="400" height="600" />
+            <seasons>1 2 3 4</seasons>
+            <actor birthday="1992-05-20">
+            	<personinfo>
+	        		<firstname>Jack</firstname>
+	            	<surname>Gleeson</surname>
+        		</personinfo>
+                <birthplace>
+                    <city>Cork</city>
+                    <country>Ireland</country>
+                </birthplace>
+            </actor>
+            <allegiance>House Baratheon</allegiance>
+        </character>
+    </characters>
+</tvseries>

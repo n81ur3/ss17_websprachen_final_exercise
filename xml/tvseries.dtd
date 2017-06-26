@@ -1,0 +1,29 @@
+<!ELEMENT tvseries (title, network, characters)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT network (#PCDATA)>
+<!ELEMENT characters (character+)>
+<!ELEMENT character (personinfo, image?, seasons, actor, allegiance)>
+<!ELEMENT personinfo (firstname, surname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ELEMENT seasons (#PCDATA)>
+<!ELEMENT actor (personinfo, birthplace)>
+<!ELEMENT birthplace (city, country)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT allegiance (#PCDATA)>
+
+<!ATTLIST tvseries
+            genre CDATA #REQUIRED
+            release CDATA #IMPLIED
+            origin CDATA #IMPLIED>
+<!ATTLIST character
+            id CDATA #REQUIRED
+            status (deceased|alive) #REQUIRED>
+<!ATTLIST image
+            src CDATA #REQUIRED
+            width CDATA #REQUIRED
+            height CDATA #REQUIRED>
+<!ATTLIST actor
+            birthday CDATA #IMPLIED>

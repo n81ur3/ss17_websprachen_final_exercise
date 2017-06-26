@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	color: #333;
+	font-family: Arial, sans-serif;
+	background: #689CD2;
+}
+
+header {
+	width: 100%;
+	background-color: #0D58A6;
+	color: #A2C6EC;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+main>div {
+	overflow: auto;
+	margin-left: 40px;
+	clear: left;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+main div.d1 {
+	background-color: #909EBE;
+}
+
+main div.d0 {
+	background-color: #DDCEB1;
+}
+
+main img {
+	float: left;
+	margin-right: 40px;
+	border-radius: 10px;
+	border: 3px solid black;
+}
+
+main div .crest {
+	padding-top: 25px;
+	width: 100px;
+	border: none;
+}
+
+main div table.infotable {
+	padding: 10px;
+	border: 5px solid #1D2323;
+	margin-top: 20px;
+	background-color: #04376C;
+	color: white;
+}
+
+main div table.infotable td {
+	padding: 10px;
+	border: 1px solid white;
+}
+
+main h3 {
+	margin-top: 50px;
+}
+
+aside {
+	position: fixed;
+	z-index: 1;
+	right: 0;
+	top: 0;
+	color: lightgrey;
+	background-color: #26517C;
+	line-height: 140%;
+	float: right;
+	padding: 40px;
+	letter-spacing: 3px;
+}
+
+aside a {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+aside li, header li {
+	list-style: square;
+	text-indent: 10px;
+	padding: 5px;
+}
+
+h1 {
+
+	text-align: center;
+	margin: 0;
+	letter-spacing: 5px;
+	font-size: 2.2em;
+	font-family: georgia;
+	letter-spacing: .15em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212,
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+

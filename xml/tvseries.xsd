@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="tvseries" type="tvseries"></xs:element>
+
+    <xs:complexType name="tvseries">
+    	<xs:sequence>
+    		<xs:element name="title" type="xs:string"></xs:element>
+    		<xs:element name="network" type="xs:string"></xs:element>
+    		<xs:element name="characters" type="characters"></xs:element>
+    		<xs:element name="author" type="xs:string"></xs:element>
+    	</xs:sequence>
+
+    	<xs:attribute name="genre">
+    		<xs:simpleType>
+    			<xs:restriction base="xs:string">
+    				<xs:enumeration value="action" />
+    				<xs:enumeration value="comdey" />
+    				<xs:enumeration value="crime" />
+    				<xs:enumeration value="drama" />
+    				<xs:enumeration value="fantasy" />
+    				<xs:enumeration value="horror" />
+    				<xs:enumeration value="mystery" />
+    				<xs:enumeration value="romance" />
+    				<xs:enumeration value="fiction" />
+    				<xs:enumeration value="thriller" />
+    				<xs:enumeration value="western" />
+    			</xs:restriction>
+    		</xs:simpleType>
+    	</xs:attribute>
+    	<xs:attribute name="release">
+    		<xs:simpleType>
+    			<xs:restriction base="xs:int">
+    				<xs:minExclusive value="1900"></xs:minExclusive>
+    				<xs:maxExclusive value="2100"></xs:maxExclusive>
+    			</xs:restriction>
+    		</xs:simpleType>
+    	</xs:attribute>
+    	<xs:attribute name="origin" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="characters">
+    	<xs:sequence>
+    		<xs:element name="character" type="character" maxOccurs="unbounded" minOccurs="1"></xs:element>
+    	</xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="character">
+    	<xs:sequence>
+    		<xs:element name="personinfo" type="personinfo"></xs:element>
+    		<xs:element name="image" type="image" maxOccurs="1" minOccurs="0">
+    		</xs:element>
+    		<xs:element name="seasons" type="intlist"></xs:element>
+    		<xs:element name="actor" type="actor"></xs:element>
+    		<xs:element name="allegiance" type="xs:string"></xs:element>
+    	</xs:sequence>
+    	<xs:attribute name="id" type="idType"></xs:attribute>
+    	<xs:attribute name="status">
+    		<xs:simpleType>
+    			<xs:restriction base="xs:string">
+    				<xs:enumeration value="alive" />
+    				<xs:enumeration value="deceased" />
+    			</xs:restriction>
+    		</xs:simpleType>
+    	</xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="actor">
+    	<xs:sequence>
+    		<xs:element name="personinfo" type="personinfo"></xs:element>
+    		<xs:element name="birthplace" type="birthplace"></xs:element>
+    	</xs:sequence>
+    	<xs:attribute name="birthday" type="xs:date"></xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="birthplace">
+    	<xs:sequence>
+    		<xs:element name="city" type="xs:string"></xs:element>
+    		<xs:element name="country" type="xs:string"></xs:element>
+    	</xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="image">
+    	<xs:attribute name="src" type="xs:string"></xs:attribute>
+    	<xs:attribute name="width" type="xs:int"></xs:attribute>
+    	<xs:attribute name="height" type="xs:int"></xs:attribute>
+    </xs:complexType>
+        
+    <xs:simpleType name="intlist">
+    	<xs:list itemType="xs:integer"/>
+    </xs:simpleType>
+
+    <xs:complexType name="personinfo">
+    	<xs:sequence>
+    		<xs:element name="firstname" type="xs:string"></xs:element>
+    		<xs:element name="surname" type="xs:string"></xs:element>
+    	</xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="idType">
+    	<xs:restriction base="xs:string">
+    		<xs:pattern value="[0-9][0-9]"></xs:pattern>
+    	</xs:restriction>
+    </xs:simpleType>
+</xs:schema>
