@@ -11,7 +11,7 @@
         		<firstname>Eddard</firstname>
             	<surname>Stark</surname>
         	</personinfo> 
-            <image src="../images/eddard_stark.jpg" width="400" height="600" />
+            <image src="./images/eddard_stark.jpg" width="400" height="600" />
             <seasons>1 4 6 7</seasons>
             <actor birthday="1959-04-17">
 	            <personinfo>
@@ -30,7 +30,7 @@
 	        		<firstname>Catelyn</firstname>
 	            	<surname>Stark</surname>
         	</personinfo> 
-            <image src="../images/catelyn_stark.jpg" width="400" height="600" />
+            <image src="./images/catelyn_stark.jpg" width="400" height="600" />
             <seasons>1 2 3</seasons>
             <actor birthday="1964-01-17">
             	<personinfo>
@@ -49,7 +49,7 @@
 	        	<firstname>Robb</firstname>
 	            <surname>Stark</surname>
         	</personinfo> 
-            <image src="../images/robb_stark.jpg" width="400" height="600" />
+            <image src="./images/robb_stark.jpg" width="400" height="600" />
             <seasons>1 2 3</seasons>
             <actor birthday="1986-06-18">
             	<personinfo>
@@ -68,7 +68,7 @@
 	        	<firstname>Sansa</firstname>
 	            <surname>Stark</surname>
         	</personinfo> 
-            <image src="../images/sansa_stark.jpg" width="400" height="600" />
+            <image src="./images/sansa_stark.jpg" width="400" height="600" />
             <seasons>1 2 3 4 5 6 7</seasons>
             <actor birthday="1996-02-21">
             	<personinfo>
@@ -87,7 +87,7 @@
 	        	<firstname>Arya</firstname>
 	            <surname>Stark</surname>
         	</personinfo>
-            <image src="../images/arya_stark.jpg" width="400" height="600" />
+            <image src="./images/arya_stark.jpg" width="400" height="600" />
             <seasons>1 2 3 4 5 6 7</seasons>
             <actor birthday="1997-04-15">
            		<personinfo>
@@ -106,7 +106,7 @@
 	        	<firstname>Bran</firstname>
 	            <surname>Stark</surname>
         	</personinfo>
-            <image src="../images/bran_stark.jpg" width="400" height="600" />
+            <image src="./images/bran_stark.jpg" width="400" height="600" />
             <seasons>1 2 3 4 6 7</seasons>
             <actor birthday="1999-04-09">
                 <personinfo>
@@ -125,7 +125,7 @@
 	        		<firstname>Jon</firstname>
 	            	<surname>Snow</surname>
         		</personinfo>
-            <image src="../images/jon_snow.jpg" width="400" height="600" />
+            <image src="./images/jon_snow.jpg" width="400" height="600" />
             <seasons>1 2 3 4 5 6 7</seasons>
             <actor birthday="1986-12-26">
                 <personinfo>
@@ -144,7 +144,7 @@
 	        		<firstname>Robert</firstname>
 	            	<surname>Baratheon</surname>
         	</personinfo>
-            <image src="../images/robert_baratheon.jpg" width="400" height="600" />
+            <image src="./images/robert_baratheon.jpg" width="400" height="600" />
             <seasons>1</seasons>
             <actor birthday="1964-01-14">
             	<personinfo>
@@ -163,7 +163,7 @@
 	        		<firstname>Cersei</firstname>
 	            	<surname>Lannister</surname>
         	</personinfo>
-            <image src="../images/cersei_lannister.jpg" width="400" height="600" />
+            <image src="./images/cersei_lannister.jpg" width="400" height="600" />
             <seasons>1 2 3 4 5 6 7</seasons>
             <actor birthday="1973-10-03">
                 <personinfo>
@@ -182,7 +182,7 @@
 	        		<firstname>Jaime</firstname>
 	            	<surname>Lannister</surname>
         	</personinfo>
-            <image src="../images/jaime_lannister.jpg" width="400" height="600" />
+            <image src="./images/jaime_lannister.jpg" width="400" height="600" />
             <seasons>1 2 3 4 5 6 7</seasons>
             <actor birthday="1970-07-27">
             	<personinfo>
@@ -201,7 +201,7 @@
 	        	<firstname>Tyrion</firstname>
 	            <surname>Lannister</surname>
         	</personinfo>
-            <image src="../images/tyrion_lannister.jpg" width="400" height="600" />
+            <image src="./images/tyrion_lannister.jpg" width="400" height="600" />
             <seasons>1 2 3 4 5 6 7</seasons>
             <actor birthday="1969-06-11">
             	<personinfo>
@@ -220,7 +220,7 @@
 	        	<firstname>Joffrey</firstname>
 	            <surname>Baratheon</surname>
         	</personinfo>
-            <image src="../images/joffrey_baratheon.jpg" width="400" height="600" />
+            <image src="./images/joffrey_baratheon.jpg" width="400" height="600" />
             <seasons>1 2 3 4</seasons>
             <actor birthday="1992-05-20">
             	<personinfo>

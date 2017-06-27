@@ -13,7 +13,7 @@
 </head>
 	<body>
 		<header>
-			<h1><xsl:value-of select="title" /></h1>
+			<h2 class="xml_title"><xsl:value-of select="title" /></h2>
 			<ul>
 				<li>Genre: <xsl:value-of select="@genre" /></li>
 				<li>Release: <xsl:value-of select="@release" /></li>
@@ -32,13 +32,13 @@
 				<div class="d{@id mod 2}">
 					<xsl:choose>
 						<xsl:when test="allegiance='House Lannister'">
-							<img src="../images/house_lannister.png" class="crest" />
+							<img src="./images/house_lannister.png" class="crest" />
 						</xsl:when>
 						<xsl:when test="allegiance='House Baratheon'">
-							<img src="../images/house_baratheon.png" class="crest" />
+							<img src="./images/house_baratheon.png" class="crest" />
 						</xsl:when>
 						<xsl:otherwise>
-							<img src="../images/house_stark.png" class="crest" />
+							<img src="./images/house_stark.png" class="crest" />
 						</xsl:otherwise>	
 					</xsl:choose>
 					<h2 id="{@id}">#<xsl:value-of select="@id"/>: 

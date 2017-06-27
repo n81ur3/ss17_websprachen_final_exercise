@@ -20,7 +20,13 @@ class Controller
     public function display() {
         switch ($this->action) {
             case "got":
-                $this->model->setPageName("GoT");
+                $this->model->setPageName("got");
+                break;
+            case "php_feature":
+                $this->model->setPageName("php_feature");
+                break;
+            case "javascript_feature":
+                $this->model->setPageName("javascript_feature");
                 break;
             default:
                 $this->model->setPageName("startpage");
