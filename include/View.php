@@ -18,7 +18,6 @@ class View
     {
         include("html/header.php");
         $this->includeNavigation();
-        echo "<body><h1>First headline</h1></body>";
         $this->model->getPageContent();
         include("html/footer.php");
     }

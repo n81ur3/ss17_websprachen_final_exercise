@@ -7,3 +7,10 @@
 ?>
 
 <h1>JavaScript Feature</h1>
+<label>
+    <select id="select1" onchange="testjs(this.value)">
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+    </select>
+</label>
