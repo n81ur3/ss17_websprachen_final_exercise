@@ -15,7 +15,7 @@ class Model{
     private $pageName;
 
     public function _construct() {
-        $this->pageName = "startpage";
+        $this->pageName = "home";
     }
 
     public function setPageName($newPage) {

@@ -25,11 +25,34 @@ class View
     private function includeNavigation()
     {
         ?>
-        <a href="index.php">Startpage</a>
-        <a href="index.php?action=got">GoT</a>
-        <a href="index.php?action=php_feature">PHP Feature</a>
-        <a href="index.php?action=javascript_feature">JavaScript Feature</a>
-<?php
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-brand">NAVIGATION</div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li <?=$this->echoActiveClassIfRequestMatches("home")?>><a href="index.php">Home</a></li>
+                        <li <?=$this->echoActiveClassIfRequestMatches("got")?>><a href="index.php?action=got">XML Feature</a></li>
+                        <li <?=$this->echoActiveClassIfRequestMatches("php_feature")?>><a href="index.php?action=php_feature">PHP Feature</a></li>
+                        <li <?=$this->echoActiveClassIfRequestMatches("javascript_feature")?>><a href="index.php?action=javascript_feature">JavaScript Feature</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <?php
+    }
+
+    function echoActiveClassIfRequestMatches($requestUri)
+    {
+        if (isset($_GET['action'])) {
+            $current_action = $_GET['action'];
+            if ($current_action == $requestUri) {
+                echo 'class="active"';
+            }
+        }
+        else if ($requestUri == 'home') {
+            echo 'class="active"';
+        }
     }
 }
+
 ?>

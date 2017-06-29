@@ -23,13 +23,13 @@ class Controller
                 $this->model->setPageName("got");
                 break;
             case "php_feature":
-                $this->model->setPageName("php_feature");
+                $this->model->setPageName("phpfeature");
                 break;
             case "javascript_feature":
-                $this->model->setPageName("javascript_feature");
+                $this->model->setPageName("jsfeature");
                 break;
             default:
-                $this->model->setPageName("startpage");
+                $this->model->setPageName("home");
         }
         $this->view->displayHTML();
     }

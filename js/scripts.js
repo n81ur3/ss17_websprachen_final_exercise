@@ -20,3 +20,14 @@ function testjs(level) {
     var select = document.getElementById("select1");
     select.style.background = color;
 }
+
+(function() {
+    'use strict';
+
+    angular.module('navBarDemoBasicUsage', ['ngMaterial'])
+        .controller('AppCtrl', AppCtrl);
+
+    function AppCtrl($scope) {
+        $scope.currentNavItem = 'page1';
+    }
+})();
