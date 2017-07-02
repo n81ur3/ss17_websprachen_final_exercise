@@ -1,33 +1,25 @@
 /*
- * Created by n81ur3 on 6/28/17.
+ * Created by Bierbaumer.
  */
 
-function testjs(level) {
+function switchBackground(level) {
     var color = "white";
     switch (level) {
         case "green":
-            color = "green";
+            color = "#8AE234";
             break;
         case "red":
-            color = "red";
+            color = "#E23131";
             break;
         case "blue":
-            color = "blue";
+            color = "#3195E2";
             break;
         default:
-            alert("something");
+            alert("something went wrong");
     }
-    var select = document.getElementById("select1");
+    var select = document.getElementById("colorselection");
     select.style.background = color;
+
+    $("#color_image").attr("src", "images/" + level + ".jpg");
 }
 
-(function() {
-    'use strict';
-
-    angular.module('navBarDemoBasicUsage', ['ngMaterial'])
-        .controller('AppCtrl', AppCtrl);
-
-    function AppCtrl($scope) {
-        $scope.currentNavItem = 'page1';
-    }
-})();

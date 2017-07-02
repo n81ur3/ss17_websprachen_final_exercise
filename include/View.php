@@ -5,6 +5,11 @@
  * Date: 6/25/17
  * Time: 8:45 PM
  */
+
+if (!defined("BIERBAUMER")) {
+    die("Access forbidden");
+}
+
 class View
 {
     private $model;
@@ -30,10 +35,14 @@ class View
                 <div class="navbar-brand">NAVIGATION</div>
                 <div>
                     <ul class="nav navbar-nav">
-                        <li <?=$this->echoActiveClassIfRequestMatches("home")?>><a href="index.php">Home</a></li>
-                        <li <?=$this->echoActiveClassIfRequestMatches("got")?>><a href="index.php?action=got">XML Feature</a></li>
-                        <li <?=$this->echoActiveClassIfRequestMatches("php_feature")?>><a href="index.php?action=php_feature">PHP Feature</a></li>
-                        <li <?=$this->echoActiveClassIfRequestMatches("javascript_feature")?>><a href="index.php?action=javascript_feature">JavaScript Feature</a></li>
+                        <li <?= $this->echoActiveClassIfRequestMatches("home") ?>>
+                            <a href="index.php">Home</a></li>
+                        <li <?= $this->echoActiveClassIfRequestMatches("got") ?>>
+                            <a href="index.php?action=got">XML Feature</a></li>
+                        <li <?= $this->echoActiveClassIfRequestMatches("php_feature") ?>>
+                            <a href="index.php?action=php_feature">PHP Feature</a></li>
+                        <li <?= $this->echoActiveClassIfRequestMatches("javascript_feature") ?>>
+                            <a href="index.php?action=javascript_feature">JavaScript Feature</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,8 +57,7 @@ class View
             if ($current_action == $requestUri) {
                 echo 'class="active"';
             }
-        }
-        else if ($requestUri == 'home') {
+        } else if ($requestUri == 'home') {
             echo 'class="active"';
         }
     }

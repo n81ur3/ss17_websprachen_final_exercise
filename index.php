@@ -4,7 +4,7 @@
  * Date: 6/25/17
  * Time: 8:45 PM
  */
-define("Bierbaumer", true);
+define("BIERBAUMER", true);
 
 include_once("include/Controller.php");
 include_once("include/Model.php");

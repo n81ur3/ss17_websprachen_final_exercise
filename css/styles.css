@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	margin-left: 50px;
 	color: #333;
 	font-family: Arial, sans-serif;
 	background: #689CD2;
@@ -11,6 +12,10 @@ header {
 	color: #A2C6EC;
 	padding-top: 30px;
 	padding-bottom: 10px;
+}
+
+.navbar {
+	margin-left: -20px;
 }
 
 main>div {
@@ -112,7 +117,31 @@ aside li, header li {
       0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
+#mvc_pattern {
+	width: 90%;
+    border-radius: 40px;
+    box-shadow: 20px 20px 5px #1a1a1a;
+}
 
+#book_text {
+    text-align: center;
+	padding: 20px;
+    margin-left: 30px;
+	margin-right: 60px;
+}
 
+#colorselection {
+	padding: 5px;
+	margin: 5px;
+	font-size: 1.4em;
+}
 
+#image_container {
+    width: 40%;
+    margin: auto;
+}
 
+#color_image {
+	border: solid 4px #fff;
+	border-radius: 20px
+}

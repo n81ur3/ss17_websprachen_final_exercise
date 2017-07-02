@@ -5,6 +5,11 @@
  * Date: 6/25/17
  * Time: 8:45 PM
  */
+
+if (!defined("BIERBAUMER")) {
+    die("Access forbidden");
+}
+
 class Controller
 {
     private $model;

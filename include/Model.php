@@ -7,8 +7,8 @@
 // Aufgabe:
 // Gehen Sie sicher, dass diese Datei nicht direkt aufgerufen
 // werden kann!
-if (! defined("Bierbaumer")) {
-    die("Restricted access");
+if (!defined("BIERBAUMER")) {
+    die("Access forbidden");
 }
 
 class Model{
