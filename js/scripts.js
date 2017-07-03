@@ -15,7 +15,7 @@ function switchBackground(level) {
             color = "#3195E2";
             break;
         default:
-            alert("something went wrong");
+            color = "#aaa";
     }
     var select = document.getElementById("colorselection");
     select.style.background = color;

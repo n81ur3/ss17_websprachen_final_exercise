@@ -17,6 +17,7 @@ if (!defined("BIERBAUMER")) {
         <div class="navbar-brand">Please pick a color</div>
         <div class="btn-group">
             <select id="colorselection" onchange="switchBackground(this.value);">
+                <option value="question_mark">-- ? --</option>
                 <option value="green">Green</option>
                 <option value="red">Red</option>
                 <option value="blue">Blue</option>
